@@ -1,0 +1,111 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #ffffff;
+            color: #963737;
+        }
+
+        /* NAVBAR */
+        nav {
+            background: #963737;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            background: linear-gradient(to bottom, #963737, #ffffff);
+            padding: 80px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        /* MENU SECTION */
+        .menu {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .menu h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+            gap: 20px;
+        }
+
+        .menu-card {
+            background: #e6f0ff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px #aac6ff;
+        }
+
+        .menu-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .menu-card h3 {
+            margin: 10px 0;
+        }
+
+        /* TENTANG */
+        .about {
+            padding: 40px 20px;
+            background: #f7faff;
+        }
+
+        .about h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* KONTAK */
+        .contact {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .whatsapp-btn {
+            display: inline-block;
+            background: #00a859;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* FOOTER */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #963737;
+            color: white;
+            margin-top: 20px;
+        }
